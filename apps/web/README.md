@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# 🚀 Silas React Sandbox
 
-## Getting Started
+_Where React nightmares come to life and performance dreams go to die (or get resurrected)_ 🧟‍♂️
 
-First, run the development server:
+## What the heck is this?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Welcome to my personal React torture chamber! This is where I pretend to be a 10x developer by solving problems that I probably created myself. It's a monorepo playground where I collect React paradigms, performance tricks, and real-world scenarios that made me question my life choices during interviews.
+
+**Spoiler alert:** Most of these "real-world" problems are actually just me overengineering a simple TODO list.
+
+## 🎯 The Master Plan
+
+This sandbox is my attempt to:
+
+- ✅ Actually understand React instead of just copy-pasting from Stack Overflow
+- ✅ Impress future employers with my "extensive" knowledge
+- ✅ Create solutions for problems that probably have npm packages already
+- ✅ Procrastinate on real work by calling this "skill development"
+- ✅ Convince myself that I'm not just another frontend developer who centers divs for a living
+
+## 🏗️ Project Structure
+
+```
+silas-react-sandbox/
+├── apps/
+│   ├── web/          # Frontend (Next.js) - Where the magic doesn't happen
+│   └── api/          # Backend (Express) - My attempt at being "full-stack"
+├── packages/
+│   ├── ui/           # Shared components - Reinventing the wheel since 2020
+│   └── utils/        # "Utility" functions that could be one-liners
+└── docs/             # Documentation nobody will read (including me)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 Current Experiments
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### WIP (Work In Progress)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Getting Started
 
-## Learn More
+First, make sure you have Node.js installed. If you don't, stop reading this and go install it. I'll wait.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone this beautiful mess
+git clone https://github.com/silas/silas-react-sandbox.git
+cd silas-react-sandbox
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies (prepare for npm install anxiety)
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start the development servers (fingers crossed)
+npm run dev
+```
 
-## Deploy on Vercel
+If everything goes according to plan (which it won't):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Frontend will be at `http://localhost:3000`
+- Backend will be at `http://localhost:3001`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- **Next.js 14**
+- **TypeScript**
+- **Tailwind CSS**
+- **TanStack Query**
+
+**Backend:**
+
+- **Express.js**
+- **TypeScript**
+- **PostgreSQL**
+
+**Tooling:**
+
+- **Turborepo** - Monorepo management for people who like complexity
+- **ESLint + Prettier** - Making my code look professional (spoiler: it doesn't help)
+
+_Built with ❤️ and questionable architectural decisions_
